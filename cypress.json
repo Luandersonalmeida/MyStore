@@ -1,0 +1,21 @@
+{
+    "baseUrl": "http://automationpractice.com/",
+    "pluginsFile": false,
+    "video": false,
+    "fixturesFolder": "helper",
+    "cypressFolder": false,
+    "ignoreTestFiles": "**/node_modules/**/*.spec.js",
+    "integrationFolder": "./",
+    "testFiles": "**/*.spec.js",
+    "supportFile": "./index.js",
+    "responseTimeout": 80000,
+    "defaultCommandTimeout": 80000,
+    "reporter": "./node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+      "reportDir": "reports/separate-reports",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "screenshotsFolder": "reports/assets"
+}
