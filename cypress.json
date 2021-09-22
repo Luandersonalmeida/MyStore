@@ -7,7 +7,7 @@
     "ignoreTestFiles": "**/node_modules/**/*.spec.js",
     "integrationFolder": "./",
     "testFiles": "**/*.spec.js",
-    "supportFile": "./index.js",
+    "supportFile": "./cypress/support/index.js",
     "responseTimeout": 80000,
     "defaultCommandTimeout": 80000,
     "reporter": "./node_modules/mochawesome/src/mochawesome.js",
