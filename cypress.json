@@ -1,5 +1,8 @@
 {
-    "baseUrl": "http://automationpractice.com/",
+  "env": {
+    "ambienteAPI" : "https://fakerestapi.azurewebsites.net/index.html",
+    "ambienteWEB" : "http://automationpractice.com/index.php"
+  },
     "pluginsFile": false,
     "video": false,
     "fixturesFolder": "helper",
